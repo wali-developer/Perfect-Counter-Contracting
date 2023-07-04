@@ -1,0 +1,13 @@
+{
+    "metaTitle": "HCL Delivery",
+    "title": "Welcome to my i18n NextJS application!",
+    "description": "I'm using the Next-Translate library to translate this page.",
+    "admin": "Admin",
+    "edit profile": "Edit Profile",
+    "go to request": "Go to request",
+    "logout": "Logout",
+    "notifications": "Notifications",
+    "recent": "Recent",
+    "older": "Older",
+    "Dashboard": "Dashboard"
+}

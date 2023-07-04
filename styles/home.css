@@ -1,0 +1,82 @@
+.slider1 {
+    background: url('../public/img/construction-bg.jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 550px) {
+    .slider1 {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.slider2 {
+    background: url('../public/img/slider1.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.slider3 {
+    background: url('../public/img/safety-bg.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.slider4 {
+    background: url('../public/img/technical-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider5 {
+    background: url('../public/img/quality.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.sliderBg::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+
+.project_card:hover .showContent {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project_card:hover .project_heading {
+    opacity: 0;
+}
+
+/* Consultation */
+.service_background {
+    background: url('../public/img/service-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    min-height: 100vh;  */
+}
+
+/* .consultionBackground::before {
+    width: 100%;
+    height: 100%;
+    background-color: #747C88;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
